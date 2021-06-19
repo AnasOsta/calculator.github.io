@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to left, rgb(0, 110, 255), rgb(0, 255, 255));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    font: 25px;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: #060c21;
+    border: none;
+    color: white;
+}
+
+.button:hover {
+    background: rgb(255, 208, 0);
+}
+
+.osta {
+    width: 203px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    border: none;
+}
+
+.Anas {
+    position: relative;
+    left: 45%;
+    top: 200px;
+    /* transform: translateX(270%)translateY(50%); */
+    border: 6px solid;
+    width: 225px;
+}
